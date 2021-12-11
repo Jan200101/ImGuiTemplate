@@ -1,8 +1,3 @@
-
-#include "imgui.h"
-#include "imgui_impl_sdl.h"
-#include "imgui_impl_opengl2.h"
-
 #include <SDL.h>
 #include <SDL_opengl.h>
 
@@ -10,6 +5,12 @@
 #include <limits.h>
 #include <thread>
 #include <libgen.h>
+
+#include "imgui.h"
+#include "imgui_impl_sdl.h"
+#include "imgui_impl_opengl2.h"
+
+#include "main.h"
 
 int done = 0;
 SDL_Window* window;
